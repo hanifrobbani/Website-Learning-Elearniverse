@@ -1,0 +1,1290 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Navbar Style*/
+header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+}
+nav {
+  background-color: rgb(86, 173, 249);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav div img {
+  width: 250px;
+  height: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 8px;
+  transition: 0.2s ease;
+  border-bottom: 1px solid rgba(255, 68, 0, 0);
+}
+
+nav ul li a:hover {
+  color: whitesmoke;
+}
+
+.menu-icon {
+  font-size: 28px;
+  display: none;
+}
+
+/* Main Style */
+main {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+/* Article 1 Bagian Beranda */
+.article-1 {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-top: 0;
+  position: relative;
+  top: -270px;
+}
+.title-main-1,
+.deskripsi-main-1 {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 100px;
+}
+.title-main-1 span {
+  color: #0174be;
+}
+.article-1,
+.title-main-1 h1 {
+  font-size: 30px;
+}
+.article-1,
+.deskripsi-main-1,
+p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.special-deskripsi {
+  font-weight: bold;
+  color: #0174be;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.box-button-main-1 {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+.button-main-1 {
+  width: 160px;
+  height: 45px;
+  border: 2px solid #0174be;
+  background-color: #0174be;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.button-main-1:hover {
+  border: 1px solid #39a7ff;
+  background-color: #39a7ff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgb(23, 106, 190);
+  color: white;
+  transition: 0.2s ease;
+}
+.img-box1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -20px;
+  width: auto;
+  height: auto;
+}
+
+.main-img1 {
+  width: 550px;
+  height: auto;
+}
+
+/* Articel 2 Bagian Keunggulan */
+.article-2 {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+  padding-top: 0;
+  position: relative;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  background-color: skyblue;
+}
+.title-main-2 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.deskripsi-title-main-2 {
+  width: 100%;
+  height: auto;
+}
+.title-unggul {
+  text-align: left;
+  font-size: 18px;
+}
+.deskripsi-main-2 {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  flex-wrap: nowrap;
+  display: flex;
+}
+.box-content-main-2 {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  color: black;
+}
+.box-deskripsi-main-2 {
+  width: 90px;
+  height: 90px;
+  background-color: #e0f4ff;
+  margin: auto;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+.img-logo-main-2 {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+.box-content-main-2 p {
+  font-size: 14px;
+  text-align: left;
+  color: black;
+}
+
+/* Article 3 Bagian Kursus */
+.article-3 {
+  width: 100%;
+  height: 750px;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 0;
+  background-color: #e0f4ff;
+  position: relative;
+  z-index: 1;
+}
+.title-article-3 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.title-article-3 h1 {
+  font-size: 40px;
+}
+.box-article-3 {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 3rem;
+  margin: auto;
+  justify-content: center;
+}
+.box-img-kursus {
+  width: 350px;
+  height: 430px;
+  background-color: ghostwhite;
+  border-radius: 25px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  z-index: 1;
+}
+.box-img-kursus:hover {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgb(46, 146, 247);
+}
+.box-img-kursus h3 {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.teks-kursus {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.img-kursus {
+  width: 350px;
+  height: 210px;
+  border-radius: 10px;
+}
+.logo-kursus-detail {
+  width: 350px;
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+.logo-kursus-detail p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.img-detail-kursus {
+  width: 25px;
+  height: 25px;
+}
+.link-kursus {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 50px;
+  text-underline-offset: 4px;
+  color: black;
+}
+#link-kursus {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 80px;
+  text-underline-offset: 4px;
+  color: black;
+}
+.link-kursus:hover,
+#link-kursus:hover,
+.link-kursus:active,
+#link-kursus:active {
+  color: red;
+}
+
+.button-kursus {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin-top: -80px;
+}
+.button-kursus-link {
+  width: 220px;
+  height: 55px;
+  font-weight: bolder;
+  font-size: 16px;
+  background-color: #0174be;
+  border: 2px solid #0174be;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+.button-kursus-link:hover {
+  background-color: #39a7ff;
+  border: 1px solid #39a7ff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgb(23, 106, 190);
+}
+.button-kursus-link i {
+  font-size: 18px;
+  margin-left: 10px;
+}
+/* Artikel 4 Bagian review */
+.article-4 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: -200px;
+  position: relative;
+}
+/* Style untuk slide card */
+.slider-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  flex: 0 0 auto;
+  padding: 30px;
+  width: 450px;
+  margin: 0 30px;
+  border: 1.5px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  background-color: #39a7ff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.1s ease-in;
+}
+.prev:hover,
+.next:hover {
+  opacity: 0.8;
+}
+/* style untuk bagian article 4 dan beberapa komponen lainnya */
+.title-review {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  width: auto;
+  height: auto;
+}
+.box-title-img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 1.5rem;
+  margin-bottom: 30px;
+}
+.box-title-img h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.img-card {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card p {
+  text-align: left;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+.card span {
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+/* Article 5 Bagian contact */
+.article-5 {
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(216, 232, 248);
+  margin-top: -150px;
+}
+.title-contact {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+  color: black;
+}
+.box-contact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: auto;
+}
+.box-img-contact {
+  width: 500px;
+  height: 350px;
+  display: block;
+  margin-top: -60px;
+}
+.box-img-contact p {
+  margin: auto;
+  text-align: center;
+  margin-top: -95px;
+}
+
+.img-contact {
+  width: 420px;
+  height: 350px;
+  margin: auto;
+  margin-top: auto;
+  display: flex;
+  object-fit: contain;
+}
+.contact-input {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 550px;
+  height: auto;
+  justify-content: center;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 15px;
+}
+.contact-input h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.kontak-desc {
+  width: auto;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 3rem;
+}
+.kontak-desc p {
+  margin: 0;
+  font-size: 16px;
+  margin-left: -30px;
+}
+.kontak-desc i {
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+}
+.center-contact-input {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.input-box {
+  display: block;
+  padding: 10px;
+  width: 400px;
+  height: 40px;
+  border: 2px solid silver;
+}
+.input-box-area {
+  display: block;
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  resize: vertical;
+  border: 2px solid silver;
+}
+.input-box:focus,
+.input-box-area:focus {
+  box-shadow: 0 0 5px rgba(5, 5, 249, 0.5);
+  outline: none;
+}
+.button-contact {
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: #0174be;
+  border: 1px solid #0174be;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.button-contact:hover {
+  opacity: 0.8;
+  box-shadow: 0 4px 6px 0 rgb(0, 152, 253), 0 4px 10px 0 rgb(23, 106, 190);
+}
+.sosmed-contact {
+  margin: 100px 150px;
+  height: auto;
+  padding: 5px;
+  width: auto;
+  display: flex;
+  border-bottom: 1.5px solid black;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.sosmed-contact i {
+  font-size: 30px;
+  cursor: pointer;
+  color: #0174be;
+}
+
+.sosmed-contact i:hover {
+  color: blue;
+  transition: 0.4s ease;
+}
+/* Bagian garis yang ada di bawah kata "atau" */
+.special-desc-contact {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+.special-desc-contact:after {
+  content: "";
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  bottom: 2px;
+  width: 30%;
+  height: 2px;
+  background-color: gray;
+  display: block;
+}
+
+/* Bagian footer */
+
+footer {
+  width: 100%;
+  height: auto;
+}
+.box-footer {
+  width: 100%;
+  height: auto;
+  background-color: #c2d9ff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box-footer p {
+  color: black;
+}
+.logo-footer {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  margin: auto;
+  margin-top: -20px;
+}
+
+.text-footer {
+  font-size: 12px;
+  text-align: left;
+  margin-top: -10px;
+  margin-left: 20px;
+  color: darkslategray;
+}
+
+.box-desc {
+  flex: 1;
+  display: flex;
+  gap: 2rem;
+}
+
+.box-tambahan {
+  width: 100px;
+  height: auto;
+  display: grid;
+}
+
+.box-info {
+  display: grid;
+  width: auto;
+  height: auto;
+  color: #0174be;
+}
+
+.box-info a,
+.box-info h3,
+.box-info p {
+  text-decoration: none;
+  font-size: 14px;
+  text-align: left;
+  display: block;
+}
+.box-info h3 {
+  font-size: 17px;
+}
+.box-info p {
+  margin-top: -70px;
+}
+.box-info a {
+  margin-top: -20px;
+}
+.box-info a:hover {
+  text-decoration: underline;
+}
+.copy {
+  text-align: center;
+  background-color: ghostwhite;
+  color: #0174be;
+  padding: 15px;
+  font-size: 17px;
+}
+
+/* Style Properti Tambahan */
+
+/* Properti Bagian review */
+.kotak-panjang {
+  background-color: skyblue;
+  width: 550px;
+  height: 50px;
+  transform: rotate(-135deg);
+  margin-bottom: -100px;
+  border-radius: 20px;
+  position: absolute;
+  top: -15%;
+  left: -30%;
+  z-index: -1;
+}
+.kotak-panjang + .kotak-panjang {
+  margin-top: 30px;
+}
+
+.lingkaran {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -20%;
+  left: 620px;
+  margin: auto;
+  background-color: skyblue;
+  display: flex;
+  position: relative;
+  z-index: -1;
+}
+
+.isi-lingkaran {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.img-supp {
+  width: 130px;
+  height: 120px;
+  position: absolute;
+  z-index: -1;
+  left: 50px;
+  top: 500px;
+  object-fit: contain;
+}
+
+/* properti bagian kursus */
+.lingkaran2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -1100px;
+  left: 630px;
+  margin: auto;
+  background-color: skyblue;
+  display: flex;
+  position: relative;
+  opacity: 0.5;
+  z-index: -1;
+}
+.img-supp2 {
+  width: 130px;
+  height: 110px;
+  position: absolute;
+  z-index: -1;
+  left: 1100px;
+  top: 750px;
+}
+.kotak {
+  width: 70px;
+  height: 70px;
+  background-color: #0174be;
+  border-radius: 8px;
+  position: absolute;
+  z-index: -1;
+  left: 80px;
+  opacity: 0.5;
+  top: 620px;
+  display: flex;
+  margin: auto;
+}
+.kotak2 {
+  top: 630px;
+  left: 100px;
+  opacity: 0.5;
+  position: absolute;
+  background-color: #0174be;
+  border-radius: 8px;
+  z-index: -1;
+  width: 70px;
+  height: 70px;
+}
+.lingkaran3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: -970px;
+  left: 550px;
+  margin: auto;
+  background-color: skyblue;
+  display: flex;
+  position: relative;
+  z-index: -1;
+}
+
+.isi-lingkaran3 {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #e0f4ff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.img-supp3 {
+  width: 130px;
+  height: 110px;
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  top: 2000px;
+} /*  Properti hanya akan terlihat di media width 820 ke atas*/
+
+/* Responsive Sedang */
+@media only screen and (max-width: 820px) {
+  /* Responsive Navbar */
+  nav {
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  nav ul li:last-of-type {
+    padding-bottom: 8px;
+  }
+
+  nav ul.hidden {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+  /* Responsive Bagian Article 1 */
+  .article-1 {
+    display: flex;
+    top: -50px;
+    width: auto;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+  }
+  .title-main-1 h1 {
+    font-size: 25px;
+    margin-bottom: -30px;
+  }
+  .deskripsi-main-1 p {
+    font-size: 14px;
+  }
+  .deskripsi-main-1 {
+    width: 100px;
+  }
+  .title-main-1,
+  .deskripsi-main-1,
+  .img-box1 {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .title-main-1,
+  .deskripsi-main-1 {
+    order: 2;
+  }
+
+  .img-box1 {
+    order: -1;
+    position: none;
+  }
+
+  .img-box1 .main-img1 {
+    width: 450px;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  /* Responsive Bagian Article 2 */
+  .article-2 {
+    width: auto;
+    height: auto;
+  }
+  .deskripsi-title-main-2 {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: grid;
+  }
+  .deskripsi-title-main-2 p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .title-main-2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .deskripsi-main-2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+  .box-deskripsi-main-2 {
+    display: grid;
+    width: 70px;
+    height: 70px;
+  }
+  /* Bagian Article 3 */
+  .article-3 {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .title-article-3 h1 {
+    font-size: 30px;
+  }
+  .title-article-3 p {
+    font-size: 13px;
+  }
+  .box-article-3 {
+    display: grid;
+    width: auto;
+    height: auto;
+  }
+  .button-kursus {
+    display: grid;
+    margin-top: 30px;
+  }
+  .button-kursus-link {
+    width: 180px;
+    height: 60px;
+    font-size: 14px;
+  }
+  .img-kursus {
+    width: 350px;
+    height: 210px;
+  }
+
+  /* Bagian Article 4 */
+  .article-4{
+    margin-top: -130px;
+  }
+  .title-review {
+    font-size: 18px;
+  }
+  .card {
+    width: 400px;
+    padding: 20px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .kotak2,
+  .kotak-panjang,
+  .lingkaran2,
+  .isi-lingkaran2,
+  .img-supp2,
+  .img-supp,
+  .lingkaran3,
+  .isi-lingkaran3,
+  .img-supp3 {
+    display: none;
+  }
+  
+  /* Bagian Article 5 Contact */
+  .article-5 {
+    padding: 10px;
+    margin-top: -50px;
+    height: auto;
+  }
+  .title-contact {
+    font-size: 20px;
+  }
+  .box-contact {
+    display: grid;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+  }
+  .contact-input {
+    width: 500px;
+  }
+  .img-contact {
+    display: none;
+  }
+  .box-img-contact {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    display: grid;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .desc-contact-i {
+    font-size: 15px;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sosmed-contact {
+    margin-top: 50px;
+  }
+  /* Bagian Footer */
+  footer {
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+  }
+
+  .box-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .box-tambahan {
+    width: 100%;
+    display: grid;
+    margin-bottom: 20px;
+  }
+  .text-footer {
+    margin: 0;
+  }
+  .logo-footer {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+  }
+  .box-desc {
+    display: grid;
+    margin-bottom: 10px;
+  }
+  .box-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .box-info a {
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    color: #0174be;
+  }
+
+  .box-info h3,
+  .box-info a {
+    margin: 0;
+  }
+  .box-info p {
+    margin-top: -5px;
+  }
+  .copy {
+    font-size: 16px;
+  }
+}
+
+/* Responsive Kecil */
+@media only screen and (max-width: 600px) {
+  nav .img-logo {
+    width: 100px;
+  }
+  .menu-icon {
+    font-size: 18px;
+  }
+  main {
+    width: auto;
+    height: auto;
+  }
+  /* Bagian Article 1 */
+  .article-1 {
+    padding: 20px;
+    position: none;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .deskripsi-main-1 {
+    width: 400px;
+  }
+  .img-box1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    position: none;
+    padding: 0;
+  }
+  .title-main-1 h1 {
+    font-size: 14px;
+    margin-bottom: -30px;
+  }
+  .deskripsi-main-1 p {
+    font-size: 10px;
+  }
+  .deskripsi-main-1 {
+    width: auto;
+    display: block;
+  }
+  .img-box1 .main-img1 {
+    width: 230px;
+    display: flex;
+    height: auto;
+    margin-top: -80px;
+    margin-right: auto;
+  }
+  .button-main-1 {
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    border-radius: 6px;
+  }
+
+  /* Bagian Article 2 */
+  .article-2 {
+    width: 100%;
+  }
+  .title-main-2 h1 {
+    font-size: 22px;
+  }
+  .deskripsi-title-main-2 {
+    width: fit-content;
+  }
+  .deskripsi-title-main-2 p {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .box-deskripsi-main-2 {
+    margin-bottom: 20px;
+  }
+  .box-content-main-2 {
+    width: 250px;
+    height: 230px;
+    padding: 10px;
+  }
+  .box-deskripsi-main-2 {
+    width: 60px;
+    height: 60px;
+  }
+  .box-content-main-2 p {
+    font-size: 12px;
+  }
+  .box-content-main-2 h3 {
+    font-size: 14px;
+  }
+
+  /* Bagian Article 3 */
+  .box-img-kursus {
+    width: 270px;
+    height: 350px;
+  }
+  .img-kursus {
+    width: 270px;
+    height: 150px;
+  }
+  .box-img-kursus h3 {
+    font-size: 16px;
+  }
+  .teks-kursus {
+    font-size: 12px;
+  }
+  .logo-kursus-detail {
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 0;
+    font-display: flex;
+  }
+  .logo-kursus-detail img,
+  .logo-kursus-detail p {
+    display: flex;
+  }
+  .logo-kursus-detail p {
+    font-size: 12px;
+  }
+  .img-detail-kursus {
+    width: 20px;
+    height: 20px;
+  }
+  #link-kursus,
+  .link-kursus {
+    font-size: 12px;
+  }
+  .button-kursus-link {
+    width: 145px;
+    height: 45px;
+    font-size: 11px;
+  }
+  .button-kursus-link i {
+    font-size: 12px;
+  }
+
+  /* Bagian Article 4 */
+  .article-4 {
+    margin-top: -100px;
+  }
+  .title-review {
+    font-size: 14px;
+    padding: 30px;
+  }
+  .slider-container {
+    width: 100%;
+    margin-top: -50px;
+  }
+  .card {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  .controls {
+    padding: 10px;
+  }
+
+  /* Bagian Article 5 Contact */
+  .contact-input {
+    width: auto;
+    padding: 20px;
+    border-radius: 14px;
+  }
+  .input-box,
+  .input-box-area {
+    width: 300px;
+  }
+  .kontak-desc {
+    gap: 1rem;
+  }
+  .kontak-desc p {
+    font-size: 13px;
+    margin-left: -10px;
+  }
+
+  .box-img-contact {
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+  }
+  .kontak-desc i {
+    font-size: 14px;
+  }
+  .desc-contact-i {
+    font-size: 12px;
+    width: 85%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .sosmed-contact i {
+    font-size: 25px;
+  }
+  .sosmed-contact {
+    margin-top: 30px;
+  }
+  /* Bagian Footer */
+  .box-info a {
+    font-size: 14px;
+  }
+}
+/* Khusus gambar dan box contact pada bagian article 1 dan 5 */
+@media only screen and (max-width: 360px) {
+  .img-box1 {
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    margin-top: -30px;
+  }
+  .contact-input {
+    width: 300px;
+    display: grid;
+  }
+  .input-box,
+  .input-box-area {
+    width: 250px;
+  }
+
+  .kontak-desc {
+    display: flex;
+  }
+  .button-contact {
+    width: 110px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .kontak-desc i {
+    font-size: 12px;
+  }
+}

@@ -849,6 +849,7 @@ footer {
   .img-box1 {
     order: -1;
     position: none;
+    margin: auto;
   }
 
   .img-box1 .main-img1 {
@@ -856,7 +857,9 @@ footer {
     height: auto;
     justify-content: flex-start;
   }
-
+  .wave2{
+    margin-top: 200px;
+  }
   /* Responsive Bagian Article 2 */
   .article-2 {
     width: auto;

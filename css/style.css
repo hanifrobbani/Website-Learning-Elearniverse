@@ -112,13 +112,13 @@ p {
   font-weight: bold;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.3s linear;
 }
 .button-main-1:hover {
   border: 1px solid #39a7ff;
   background-color: #39a7ff;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgb(23, 106, 190);
   color: white;
-  transition: 0.2s ease;
 }
 .img-box1 {
   display: flex;
